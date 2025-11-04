@@ -1,3 +1,7 @@
+# Disclaimer
+### Sientanse libres para descargar y copiar lo que quieran del repo, pero lo dejo protegido para que no haya cambios imprevistos.
+### Pueden realizr un fork y trabajar tranquilamente con si fork propio.
+### Cualquier recomendación o sugerencia, no duden en contactar conmigo
 # 1 Diseño de la solución
 ## 1.1 Implementación Aislada: Capa de Contenedores Docker
 Para maximizar la robustez, portabilidad y mantenibilidad del servicio, se ha implementado el servidor DNS secundario dentro de un ambiente en contenedores mediante **Docker**. Este modelo de diseño representa tanto una modernización en la arquitectura de los servidores, como , un aporte de beneficios tangibles y críticos para un servicio de infraestructura.
