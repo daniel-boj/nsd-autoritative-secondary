@@ -1,0 +1,23 @@
+---
+name: nsd
+
+services:
+  nsd-secondary:
+    container_name: nsd-secondary
+    image: danielboj/nsd-secondary:latest
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+    volumes:
+      - ./config/nsd.conf:/etc/nsd/nsd.conf
+      - ./data/zones:/etc/nsd/zones
+      - ./scripts:/scripts:ro
+    env_file: ".env"
+    entrypoint: ["/scripts/entrypoint.sh"]
+    restart: unless-stopped
+    networks:
+      - nsd_net
+
+networks:
+  nsd_net:
+    driver: bridge
