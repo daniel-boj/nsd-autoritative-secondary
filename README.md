@@ -1,6 +1,6 @@
 # Disclaimer
 ### Sientanse libres para descargar y copiar lo que quieran del repo, pero lo dejo protegido para que no haya cambios imprevistos.
-### Pueden realizr un fork y trabajar tranquilamente con si fork propio.
+### Pueden realizr un fork y trabajar tranquilamente con su fork propio.
 ### Cualquier recomendación o sugerencia, no duden en contactar conmigo
 # 1 Diseño de la solución
 ## 1.1 Implementación Aislada: Capa de Contenedores Docker
